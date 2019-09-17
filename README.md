@@ -17,7 +17,10 @@ git (optional, you can manually download https://raw.githubusercontent.com/akret
 git clone https://github.com/akretion/shopinvader-getting-started
 cd shopinvader-getting-started
 docker-compose up -d
+cd ..
+
 git clone https://github.com/akretion/shopinvader-template template
+cd template
 docker-compose run --service-port wagon
 
 ```
